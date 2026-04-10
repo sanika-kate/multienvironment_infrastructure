@@ -61,15 +61,15 @@ terraform init
 
 ### 2. Plan Infrastructure
 
-terraform plan -var-file="terraform.tfvars"
+terraform plan 
 
 ### 3. Apply Changes
 
-terraform apply -var-file="terraform.tfvars"
+terraform apply 
 
 ### 4. Destroy Infrastructure
 
-terraform destroy -var-file="terraform.tfvars"
+terraform destroy 
 
 ---
 
@@ -87,13 +87,7 @@ terraform destroy -var-file="terraform.tfvars"
 
 * Built reusable Terraform modules
 * Understood AWS networking (VPC, subnets, routing)
-* Gained hands-on experience with infrastructure provisioning
-
----
-
-## 👩‍💻 Author
-
-Sanika Kate
+* Gained hands-on experience with infrastructure provision
 
 ---
 
